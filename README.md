@@ -1,4 +1,4 @@
-#GESTION DE TACHES
+# GESTION DE TACHES
 **Description**
 C'est une application permet aux utilisateurs de gérer leurs tâches quotidiennes avec des fonctionnalités telles que l'ajout, la modification, et la suppression de tâches. Des notifications sont envoyées lorsque les deadlines approchent. L'application est sécurisée avec une authentification des utilisateurs et utilise un design responsive. 
 
