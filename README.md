@@ -9,7 +9,7 @@ Faciliter la gestion des tâches personnelles ou professionnelles avec une inter
 
 **Prochaine étapes**
 
-- plus de fonctionnalite sur le trier des taches
+- plus de fonctionnalite sur le trie des taches
 - Introduisez des sous-tâches pour permettre une gestion plus granulaire des projets complexes.
 - Ajouter un formulaire de recherche
 - Ajoutez un tableau de bord qui permet de visualiser les statistiques des tâches (tâches terminées, tâches en retard, etc.).
