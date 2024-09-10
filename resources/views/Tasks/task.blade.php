@@ -111,14 +111,6 @@
         <div class="col-4  text-center" data-bs-toggle="modal" data-bs-target="#{{ 'delete_'.$task->id }}">
             <i class="bi bi-trash3-fill" style="color: red"></i>
         </div>
-        {{-- <div class="col-4  text-center">        
-            <form action="{{ route('delete', $task) }}" method="post">
-                @csrf
-                @method('DELETE')
-                <button type="submit" class="btn"><i class="bi bi-trash3-fill" style="color: red"></i></button>
-            </form>
-        </div> --}}
-        
     </div>
 </div>
 

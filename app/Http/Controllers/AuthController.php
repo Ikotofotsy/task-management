@@ -19,10 +19,11 @@ class AuthController extends Controller
 
     public function register(RegisterRequest $request): View{
         try{
+            $request = $request->validated();
             $user = User::create([
-                'name' => $request->input('name'),
-                'email' => $request->input('email'),
-                'password' => Hash::make($request->input('password'))
+                'name' => $request['name'],
+                'email' => $request['email'],
+                'password' => Hash::make($request['password'])
             ]);
     
             Auth::login($user);

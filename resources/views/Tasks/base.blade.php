@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 
-    @vite(['resources/js/app.js', 'resources/css/app.css'])
+    {{-- @vite(['resources/js/app.js', 'resources/css/app.css']) --}}
+    <link rel="stylesheet" href="{{ asset('css/styleTasks.css') }}">
+
 
     <title>@yield('title') | Tsisy Atao by TNR</title>
 </head>
@@ -32,7 +34,6 @@
                             <span class="nav-link" data-bs-toggle="modal" data-bs-target="#add_form">
                                 <i class="bi bi-patch-plus"></i> Nouvelle tache
                             </span>
-                            {{-- <a class="nav-link" href="{{ route('form') }}"><i class="bi bi-patch-plus"></i> Nouvelle tache</a> --}}
                         </li>
                     </ul>
                     <form class="d-flex" role="search" action="{{ route('logout') }}" method="post">
